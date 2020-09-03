@@ -29,7 +29,9 @@ class Landing extends Component {
                                 </a> */}
 
                                 {/* Github */}
-                                <a href="https://github.com/92til-infinity"> <img src="./assets/github icon.png" className="networking" alt="GITHUB" /> </a>
+                                <a href="https://github.com/92til-infinity" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-github-square" aria-hidden="true" />
+                                </a>
 
                             </div>
                         </div>
