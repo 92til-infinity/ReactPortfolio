@@ -1,30 +1,42 @@
 // import logo from './logo.svg';
-import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
-import Nav from "./components/Nav/Nav";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import React, { Component } from 'react';
+import './App.css';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './components/Main/index';
 import Footer from './components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
-function App() {
-  return (
-    <Router>
-      <div className="App">
-        <header className="App-header">
-          <Header />
-          <Nav />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/About" component={About} />
-          <Route exact path="/Portfolio" component={Portfolio} />
-          <Route exact path="/Contact" component={Contact} />
+class App extends Component {
+  render() {
+    return (
+      <div className="demo-big-content">
+        <Layout>
+          <Header className="header-color" title={<Link style={{ textDecoration: 'none', color: 'white' }} to="/">MyPortfolio</Link>} >
+            <Navigation>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/contact">Contact</Link>
+            </Navigation>
+          </Header>
+          <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">MyPortfolio</Link>}>
+            <Navigation>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/contact">Contact</Link>
+            </Navigation>
+          </Drawer>
+          <Content>
+            <div className="page-content">
+              <Main />
+            </div>
+          </Content>
           <Footer />
-        </header>
+        </Layout>
       </div>
-    </Router>
-  );
+    );
+  }
 }
 
 export default App;
