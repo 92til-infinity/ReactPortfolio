@@ -83,6 +83,34 @@ class Projects extends Component {
                             </CardMenu>
                         </Card>
 
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #2</CardTitle>
+                            <CardText>
+                                Fitness Tracker
+                                    </CardText>
+                            <CardActions border>
+                                <Button colored href="https://github.com/92til-infinity/Workout-Tracker-HW">GitHub</Button>
+
+                            </CardActions>
+                            <CardMenu style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #2</CardTitle>
+                            <CardText>
+                                Online-Offline-Budget-Trackers
+                                    </CardText>
+                            <CardActions border>
+                                <Button colored href="https://github.com/92til-infinity/Online-Offline-Budget-Trackers">GitHub</Button>
+
+                            </CardActions>
+                            <CardMenu style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+
                     </div>
                 </div>
 
