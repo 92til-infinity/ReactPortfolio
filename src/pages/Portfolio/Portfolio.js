@@ -42,7 +42,7 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
 
-                    {/* Project 3 */}
+                    {/* Project 3
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #3</CardTitle>
                         <CardText>
@@ -55,7 +55,7 @@ class Projects extends Component {
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
                         </CardMenu>
-                    </Card>
+                    </Card> */}
                 </div>
 
 

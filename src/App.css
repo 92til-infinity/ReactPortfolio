@@ -21,7 +21,15 @@
 }
 
 /* Resume Page css */
+
+
 .resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.resume-left-col{
   background: #27221F;
   color: white;
   padding: 2em;
@@ -66,8 +74,15 @@
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
-}
 
+}
+/* about css */
+
+.MainContainer{
+  font-family: 'Anton', sans-serif;
+  padding: 2em;
+  font-size: x-large;
+}
 
 /* contact page css */
 

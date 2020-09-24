@@ -3,17 +3,17 @@ import { Grid, Cell } from 'react-mdl';
 import Education from '../../components/Education/index';
 import Experience from '../../components/Experience/index';
 import Skills from '../../components/Skills/index';
-
+import Avatar from "./assets/avatar profile.jpg";
 
 class Resume extends Component {
     render() {
         return (
             <div>
                 <Grid>
-                    <Cell col={4}>
+                    <Cell className="resume-left-col" col={4}>
                         <div style={{ textAlign: 'center' }}>
                             <img
-                                src=""
+                                src={Avatar}
                                 alt="avatar"
                                 style={{ height: '200px' }}
                             />
