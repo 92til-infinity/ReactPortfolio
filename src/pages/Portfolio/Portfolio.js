@@ -15,7 +15,7 @@ class Projects extends Component {
                 <div><h1>This is React</h1>
                     <div className="projects-grid">
                         {/* Project 1 */}
-                        <Card shadow={5} className="mr-2" style={{ minWidth: '450', margin: 'auto' }}>
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #1</CardTitle>
                             <CardText>
                                 Study Check
