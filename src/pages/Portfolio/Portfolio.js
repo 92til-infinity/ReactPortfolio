@@ -14,9 +14,8 @@ class Projects extends Component {
             return (
                 <div><h1>This is React</h1>
                     <div className="projects-grid">
-                        <br></br><br></br>
                         {/* Project 1 */}
-                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <Card shadow={5} className="mr-2" style={{ minWidth: '450', margin: 'auto' }}>
                             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #1</CardTitle>
                             <CardText>
                                 Study Check
@@ -31,19 +30,19 @@ class Projects extends Component {
                         </Card>
 
                         {/* Project 2 */}
-                        {/* <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #2</CardTitle>
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #1</CardTitle>
                             <CardText>
-                                2Play Project
-                                    </CardText>
+                                Google Search
+                        </CardText>
                             <CardActions border>
-                                <Button colored href="https://github.com/92til-infinity/Project2x4">GitHub</Button>
-
+                                <Button colored href="https://github.com/92til-infinity/Google-Books-Search">GitHub</Button>
+                                <Button colored href="https://damp-caverns-98963.herokuapp.com/">Heroku</Button>
                             </CardActions>
                             <CardMenu style={{ color: '#fff' }}>
                                 <IconButton name="share" />
                             </CardMenu>
-                        </Card> */}
+                        </Card>
 
                     </div>
                 </div>
@@ -82,7 +81,9 @@ class Projects extends Component {
                                 <IconButton name="share" />
                             </CardMenu>
                         </Card>
+                        <span>
 
+                        </span>
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #2</CardTitle>
                             <CardText>
@@ -110,6 +111,8 @@ class Projects extends Component {
                                 <IconButton name="share" />
                             </CardMenu>
                         </Card>
+                        <br></br>
+
 
                     </div>
                 </div>
